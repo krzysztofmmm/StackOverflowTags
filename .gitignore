@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# App settings and environment specific settings
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/Properties/launchSettings.json
