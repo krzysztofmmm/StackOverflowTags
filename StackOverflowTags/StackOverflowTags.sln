@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverflowTags", "StackOverflowTags.csproj", "{B19903C5-5CEF-4732-B349-38137D705546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflowTags.Tests", "..\StackOverflowTags.Tests\StackOverflowTags.Tests.csproj", "{1E8EEA0D-9E27-4701-B345-971147A60808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B19903C5-5CEF-4732-B349-38137D705546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19903C5-5CEF-4732-B349-38137D705546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19903C5-5CEF-4732-B349-38137D705546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19903C5-5CEF-4732-B349-38137D705546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8EEA0D-9E27-4701-B345-971147A60808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8EEA0D-9E27-4701-B345-971147A60808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8EEA0D-9E27-4701-B345-971147A60808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8EEA0D-9E27-4701-B345-971147A60808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8181855D-BF24-4F24-A875-3B91BAE15CAD}
+	EndGlobalSection
+EndGlobal
