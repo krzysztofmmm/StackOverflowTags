@@ -1,0 +1,12 @@
+﻿version: '3.8'
+services:
+  stackoverflowtags:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    volumes:
+      - ./Database:/app/Database
+      - ./Logs:/app/Logs
